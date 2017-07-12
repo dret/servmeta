@@ -9,7 +9,7 @@ Servmeta is serialized as a JSON format
  * You MUST NOT create a property that uses a name that appears in the [IANA Link Relations registry](https://www.iana.org/assignments/link-relations/link-relations.xml).
  
 
-## dret Example
+## Example
 
 ```javascript
 {
@@ -20,6 +20,13 @@ Servmeta is serialized as a JSON format
   "contact": ""
 }
 ```
+The `service` property is OPTIONAL. If it appears, it MUST be a link or an object. If it is a link, that link MUST point to another servmeta document. If it is an object it MUST be an embedded servemeta object.
+
+TK:(what about two hops?)
+
+
+
+
 ## IANA Link Relation Values
 There are interesting values to consider
 
