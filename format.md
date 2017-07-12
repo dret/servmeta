@@ -27,7 +27,7 @@ The `service` property is OPTIONAL. If it appears, it MUST be a link or an objec
 TK:(what about two hops?)
 
 ### Link Properties
-The `links` property is an object with pairs of relationship type (RFC5988 compliant) and an array of URI strings. 
+The `links` property is OPTIONAL. If it appears, it MUST be an object with pairs of relationship type (RFC5988 compliant) and an array of URI strings. 
 
 For example:
 
