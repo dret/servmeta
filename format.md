@@ -6,20 +6,6 @@ TK
 ## Format Basics
 Servmeta is serialized as a JSON format
 
-## mamund Example
-
-```javascript
-{
-  "servmeta" : {
-    "version" : {},
-    "links" : {},
-    "service" : {},
-    "instance" : {},
-    "extensions" : {}
-  }
-}
-```
-
 ## dret Example
 
 ```javascript
@@ -31,3 +17,6 @@ Servmeta is serialized as a JSON format
   "author": ""
 }
 ```
+
+## The Servmeta Registry
+ 
