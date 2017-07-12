@@ -25,7 +25,7 @@ Servmeta is serialized as a JSON format
 The `service` property is OPTIONAL. If it appears, it MUST be a link or an object. If it is a link, that link MUST point to another servmeta document. If it is an object it MUST be an embedded servemeta object.
 
 For example:
-```
+```javascript
 {
   ...
   "service" : "http://api.example.org/services/servmeta.json",
@@ -33,14 +33,14 @@ For example:
 }
 ```
 OR
-```
+```javascript
 {
   ...
   "service" : {
      "title" : "...",
      "description" : "...",
      "contact" : "..."
-     "links" : []
+     "links" : {}
   }
   ...
 }
@@ -53,13 +53,15 @@ The `links` property is OPTIONAL. If it appears, it MUST be an object with pairs
 
 For example:
 
-```
+```javascript
 { 
   ...
-  "service-doc" : [
-    "http://api.example.org/services/docs/person", 
-    "http://api.eample.org/services/docs/place"
-  ]
+  "links" : {
+    "service-doc" : [
+      "http://api.example.org/services/docs/person", 
+      "http://api.eample.org/services/docs/place"
+    ]
+  }
   ...
 }
 ```
