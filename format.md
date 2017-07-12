@@ -20,12 +20,20 @@ Servmeta is serialized as a JSON format
   "contact": ""
 }
 ```
+
+### Service Property
 The `service` property is OPTIONAL. If it appears, it MUST be a link or an object. If it is a link, that link MUST point to another servmeta document. If it is an object it MUST be an embedded servemeta object.
 
 TK:(what about two hops?)
 
+### Link Properties
+The `links' is an object with pairs of relationship type (RFC5988 compliant) and an array of URI strings. 
 
+For example:
 
+```
+"service-doc" : ["http://api.example.org/services/docs/person", "http://api.eample.org/services/docs/place"]
+```
 
 ## IANA Link Relation Values
 There are interesting values to consider
@@ -51,3 +59,9 @@ Below is an initial list of Servmeta Registry entries:
  * *contact* : (string) name of the primary contact for this service
  * *date* : (RFC3339 string) date this document was last modified
  * *concepts* : (array of URLs)
+
+
+## TO DO
+ 
+Valiator should create an annotated version of your submitting servmeta document.
+
