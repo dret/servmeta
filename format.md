@@ -24,5 +24,10 @@ Servmeta is serialized as a JSON format
 
 ```javascript
 {
+  "service" : {},
+  "links": {},
+  "title": "",
+  "description": "",
+  "author": ""
 }
 ```
