@@ -38,7 +38,7 @@ For each property that you put into the registry you have to provide:
  * JSON type(string, object, array)
 
 
-
+Below is an initial list of Servmeta Registry entries:
  * title
  * description
  * contact
