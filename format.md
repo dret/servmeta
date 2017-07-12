@@ -22,7 +22,7 @@ Servmeta is serialized as a JSON format
 ```
 
 ### Service Property
-The `service` property is OPTIONAL. If it appears, it MUST be a link or an object. If it is a link, that link MUST point to another servmeta document. If it is an object it MUST be an embedded servemeta object.
+The `service` property is OPTIONAL. If it appears, it MUST be a link or an object. If it is a link, that link MUST point to another servmeta document. If it is an object it MUST be an embedded servmeta object.
 
 For example:
 ```javascript
