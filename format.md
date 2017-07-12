@@ -8,7 +8,7 @@ Servmeta is serialized as a JSON format
 
 ## Example
 
-``
+```
 {
   "servmeta" : {
     "version" : {},
@@ -18,6 +18,6 @@ Servmeta is serialized as a JSON format
     "extensions" : {}
   }
 }
-``
+```
 
 
