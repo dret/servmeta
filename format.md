@@ -20,7 +20,17 @@ Servmeta is serialized as a JSON format
   "contact": ""
 }
 ```
+## IANA Link Relation Values
+There are intersting values to consider
 
+ * author
+ * copyright
+ * help
+ * license
+ * profile
+ * terms-of-service
+ * version-history
+ 
 ## The Servmeta Registry
  * title
  * description
