@@ -24,6 +24,28 @@ Servmeta is serialized as a JSON format
 ### Service Property
 The `service` property is OPTIONAL. If it appears, it MUST be a link or an object. If it is a link, that link MUST point to another servmeta document. If it is an object it MUST be an embedded servemeta object.
 
+For example:
+```
+{
+  ...
+  "service" : "http://api.example.org/services/servmeta.json",
+  ...
+}
+```
+OR
+```
+{
+  ...
+  "service" : {
+     "title" : "...",
+     "description" : "...",
+     "contact" : "..."
+     "links" : []
+  }
+  ...
+}
+```
+
 TK:(what about two hops?)
 
 ### Link Properties
