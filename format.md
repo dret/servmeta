@@ -32,7 +32,14 @@ The `links` property is OPTIONAL. If it appears, it MUST be an object with pairs
 For example:
 
 ```
-"service-doc" : ["http://api.example.org/services/docs/person", "http://api.eample.org/services/docs/place"]
+{ 
+  ...
+  "service-doc" : [
+    "http://api.example.org/services/docs/person", 
+    "http://api.eample.org/services/docs/place"
+  ]
+  ...
+}
 ```
 
 ## IANA Link Relation Values
