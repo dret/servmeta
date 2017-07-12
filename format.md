@@ -85,11 +85,11 @@ For each property that you put into the registry you have to provide:
 
 
 Below is an initial list of Servmeta Registry entries:
- * *title* : (string) title of the service
- * *description* : (string) description of the service
- * *contact* : (string) name of the primary contact for this service
- * *date* : (RFC3339 string) date this document was last modified
- * *concepts* : (array of URLs)
+ * **title** : (string) title of the service
+ * **description** : (string) description of the service
+ * **contact** : (string) name of the primary contact for this service
+ * **date** : (RFC3339 string) date this document was last modified
+ * **concepts** : (array of URLs)
 
 
 ## TO DO
