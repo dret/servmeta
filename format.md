@@ -94,5 +94,5 @@ Below is an initial list of Servmeta Registry entries:
 
 ## TO DO
  
-Valiator should create an annotated version of your submitting servmeta document.
+Validator should create an annotated version of your submitting servmeta document.
 
