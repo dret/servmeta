@@ -21,7 +21,7 @@ Servmeta is serialized as a JSON format
 }
 ```
 ## IANA Link Relation Values
-There are intersting values to consider
+There are interesting values to consider
 
  * author
  * copyright
@@ -32,8 +32,15 @@ There are intersting values to consider
  * version-history
  
 ## The Servmeta Registry
+For each property that you put into the registry you have to provide:
+ * name
+ * short description
+ * JSON type(string, object, array)
+
+
+
  * title
  * description
  * contact
  * date
- *  
+ * concepts   
