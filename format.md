@@ -75,6 +75,9 @@ There are interesting values to consider
  * home (defined in [JSON Home I-D](https://tools.ietf.org/html/draft-nottingham-json-home))
  * license
  * profile
+ * service-desc
+ * service-doc
+ * service-meta
  * terms-of-service
  * version-history
 
