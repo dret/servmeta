@@ -7,7 +7,7 @@ TK
 Servmeta is serialized as a JSON format
 
  * You MUST NOT create a property that uses a name that appears in the [IANA Link Relations registry](https://www.iana.org/assignments/link-relations/link-relations.xml).
- 
+
 
 ## Example
 
@@ -49,16 +49,16 @@ OR
 TK:(what about two hops?)
 
 ### Link Properties
-The `links` property is OPTIONAL. If it appears, it MUST be an object with pairs of relationship type (RFC5988 compliant) and an array of URI strings. 
+The `links` property is OPTIONAL. If it appears, it MUST be an object with pairs of relationship type (RFC5988 compliant) and an array of URI strings.
 
 For example:
 
 ```javascript
-{ 
+{
   ...
   "links" : {
     "service-doc" : [
-      "http://api.example.org/services/docs/person", 
+      "http://api.example.org/services/docs/person",
       "http://api.eample.org/services/docs/place"
     ]
   }
@@ -72,11 +72,12 @@ There are interesting values to consider
  * author
  * copyright
  * help
+ * home (defined in [JSON Home I-D](https://tools.ietf.org/html/draft-nottingham-json-home))
  * license
  * profile
  * terms-of-service
  * version-history
- 
+
 ## The Servmeta Registry
 For each property that you put into the registry you have to provide:
  * name
@@ -93,6 +94,5 @@ Below is an initial list of Servmeta Registry entries:
 
 
 ## TO DO
- 
-Validator should create an annotated version of your submitting servmeta document.
 
+Validator should create an annotated version of your submitting servmeta document.
