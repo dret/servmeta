@@ -69,19 +69,19 @@ For example:
 ## IANA Link Relation Values
 There are interesting values to consider
 
- * author (https://www.w3.org/TR/html5/links.html#link-type-author)
- * copyright (http://www.w3.org/TR/1999/REC-html401-19991224)
- * help (http://www.w3.org/TR/html5/links.html#link-type-help)
- * home (https://tools.ietf.org/html/draft-nottingham-json-home)
- * license (http://www.iana.org/go/rfc4946)
- * profile (http://www.iana.org/go/rfc6906)
- * service-desc (https://tools.ietf.org/html/draft-wilde-service-link-rel)
- * service-doc (https://tools.ietf.org/html/draft-wilde-service-link-rel)
- * service-meta (https://tools.ietf.org/html/draft-wilde-service-link-rel)
- * status (https://tools.ietf.org/html/draft-wilde-service-link-rel)
- * terms-of-service (http://www.iana.org/go/rfc6903)
- * version-history (http://www.iana.org/go/rfc5829)
- * payment (RFC 5988)
+ * [author](https://www.w3.org/TR/html5/links.html#link-type-author)
+ * [copyright](http://www.w3.org/TR/1999/REC-html401-19991224)
+ * [help](http://www.w3.org/TR/html5/links.html#link-type-help)
+ * [home](https://tools.ietf.org/html/draft-nottingham-json-home)
+ * [license](http://www.iana.org/go/rfc4946)
+ * [profile](http://www.iana.org/go/rfc6906)
+ * [service-desc](https://tools.ietf.org/html/draft-wilde-service-link-rel)
+ * [service-doc](https://tools.ietf.org/html/draft-wilde-service-link-rel)
+ * [service-meta](https://tools.ietf.org/html/draft-wilde-service-link-rel)
+ * [status](https://tools.ietf.org/html/draft-wilde-service-link-rel)
+ * [terms-of-service](http://www.iana.org/go/rfc6903)
+ * [version-history](http://www.iana.org/go/rfc5829)
+ * [payment](RFC 5988)
 
 ## The Servmeta Registry
 For each property that you put into the registry you have to provide:
