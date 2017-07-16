@@ -80,6 +80,7 @@ There are interesting values to consider
  * service-meta
  * terms-of-service
  * version-history
+ * payment (RFC 5988)
 
 ## The Servmeta Registry
 For each property that you put into the registry you have to provide:
