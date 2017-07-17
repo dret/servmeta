@@ -1,5 +1,7 @@
 # Servmeta: A Format for Service Metadata
 
+## Introduction
+
 ## Scope
 
 ## Definition
