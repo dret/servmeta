@@ -78,7 +78,9 @@ For example:
 
 ## IANA Link Relation Values
 
-There are interesting values to consider
+Not all registered values in the [IANA registry of link relation types](https://www.iana.org/assignments/link-relations/link-relations.xhtml) are necessarily useful in context of the servmeta format. However, the goal of servmeta is to avoid duplication, so there should be a preference on reusing existing link relationship types over creating new properties for the servmeta format.
+
+As an incomplete starting point when it comes to considering registered link relation types, here are interesting values to consider:
 
  * [`author`](https://www.w3.org/TR/html5/links.html#link-type-author)
  * [`copyright`](http://www.w3.org/TR/1999/REC-html401-19991224)
@@ -96,6 +98,8 @@ There are interesting values to consider
 
 
 ## The Servmeta Registry
+
+Servmeta properties should not duplicate facilities that are already supported by exiting link relation types. Please first consult the [IANA registry of link relation types](https://www.iana.org/assignments/link-relations/link-relations.xhtml) before using and/or proposing additions to the existing vocabulary of servmeta properties.
 
 For each property that you put into the registry you have to provide:
 
