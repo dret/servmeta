@@ -4,7 +4,7 @@
 
 Servmeta is intended to be a format that exposes or links to metadata for a Web service (a.k.a. REST service or Web API). It can be seen as complementary to the *JSON Home* format. Whereas JSON Home serves as a starting point to start interacting with resources that are exposed as part of a Web service, Servmeta serves as a starting point to find and start interacting with resources that are *about* a Web service.
 
-Servmeta is based on the assumption that service metadata is a diverse and constantly evolving field, with very different information needs based on the context and the constraints of Web service environments. For this reason, Servmeta is designed to be open and extensible and uses a [registry]() to make extensions discoverable.
+Servmeta is based on the assumption that service metadata is a diverse and constantly evolving field, with very different information needs based on the context and the constraints of Web service environments. For this reason, Servmeta is designed to be open and extensible and uses a [registry](https://tools.ietf.org/html/draft-wilde-registries) to make extensions discoverable.
 
 
 ## Format Basics
