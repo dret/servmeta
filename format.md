@@ -2,7 +2,7 @@
 
 ## Overview
 
-TK
+Servmeta is intended to be a format that exposes or links to metadata for a Web service (a.k.a. REST service or Web API). It can be seen as complementary to the *JSON Home* format. Whereas JSON Home serves as a starting point to start interacting with resources that are exposed as part of a Web Service, Servmeta serves as a starting point to find and start interacting with resources that are *about* a Web Service.
 
 
 ## Format Basics
