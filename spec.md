@@ -11,3 +11,5 @@
 ## Registry
 
 ## Discovery
+
+`service-metadata` link relation
