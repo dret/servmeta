@@ -96,7 +96,7 @@ As an incomplete starting point when it comes to considering registered link rel
  * [`status`](https://tools.ietf.org/html/draft-wilde-service-link-rel)
  * [`terms-of-service`](http://www.iana.org/go/rfc6903)
  * [`version-history`](http://www.iana.org/go/rfc5829)
- * [`payment`](RFC 5988)
+ * [`payment`](http://www.iana.org/go/rfc5988)
 
 
 ## The Servmeta Registry
