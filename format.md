@@ -94,6 +94,7 @@ As an incomplete starting point when it comes to considering registered link rel
  * [`service-doc`](https://tools.ietf.org/html/draft-wilde-service-link-rel)
  * [`service-meta`](https://tools.ietf.org/html/draft-wilde-service-link-rel)
  * [`status`](https://tools.ietf.org/html/draft-wilde-service-link-rel)
+ * [`sunset`](https://tools.ietf.org/html/draft-wilde-sunset-header)
  * [`terms-of-service`](http://www.iana.org/go/rfc6903)
  * [`version-history`](http://www.iana.org/go/rfc5829)
  * [`payment`](http://www.iana.org/go/rfc5988)
