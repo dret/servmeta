@@ -124,6 +124,7 @@ Below is an initial list of Servmeta Registry entries:
 The idea of servmeta is to act as a starting point for exploring the information that is available for a service. This can be done via typed links, or through properties of the servmeta format. Below is an incomplete and evolving collection of information that would be interesting to capture, but where it is not quite clear how to best to it.
 
 * *Client-side Libraries:* Information about software artifacts that client developers can use as a starting point when starting to write code against the service.
+* *Examples:* Specific information how to use the service based on examples, either simply based on API usage, or possibly based on specific client-side technologies.
 
 
 ## TO DO
