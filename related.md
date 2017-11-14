@@ -9,3 +9,8 @@
 ## Pivio
 
 * [Pivio home page](http://pivio.io/)
+
+
+## Schema.org
+
+* [Pending `WebAPI` schema.org extension](http://pending.schema.org/WebAPI)
